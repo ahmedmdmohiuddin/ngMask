@@ -12,7 +12,7 @@
 
 ### TL;DR
 
-[Check live examples here.](http://candreoliveira.github.io/#/ngMask)
+[Check live examples here.](http://ahmedmohiuddin.github.io/#/ngMask)
 
 ### Install
 
