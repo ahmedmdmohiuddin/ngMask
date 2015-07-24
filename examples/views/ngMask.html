@@ -294,14 +294,35 @@
 
 <div class="row">
   <form name="form">
+     <div class="row">
+      <h3>time example</h3>
+      <div class="col-xs-12 col-sm-4">
+        <fieldset>
+          <label>MASK: 23:23:59</label>
+          <br>
+          <input type="text" name="time11"
+                 mask="23:23:59"
+                 ng-model="time11">
+
+          <p>Model: {{time11}}</p>
+          <p>Field Error: {{form.time11.$error}}</p>
+          <p>Field Valid: {{form.time11.$valid}}</p>
+          <code>
+            &lt;input type="text" name="date"
+                 mask="39/19/9999"
+                 ng-model="date"&gt;
+          </code>
+        </fieldset>
+      </div>
+    </div>
     <div class="row">
       <h3>Date example</h3>
       <div class="col-xs-12 col-sm-4">
         <fieldset>
-          <label>MASK: 39/19/9999</label>
+          <label>MASK: 12/31/2999</label>
           <br>
           <input type="text" name="date"
-                 mask="39/19/9999"
+                 mask="12/31/2999"
                  ng-model="date">
 
           <p>Model: {{date}}</p>
